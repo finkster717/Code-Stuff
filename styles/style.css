@@ -1,0 +1,344 @@
+html {
+    background-color: black;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: 90% 1fr;
+}
+
+.header-container {
+    position: fixed;
+    grid-column: 1/2;
+    grid-row: 1/2;    
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 50px 500px 1fr;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+.logo {
+    grid-column: 2/3;
+    width: 450px;
+}
+
+.nav-links {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+nav a {
+    color: #00ce53;
+    font-size: 2em;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    padding-right: 4px;
+    padding-left: 4px;
+    background-color: #011b0c;
+    border-radius: 10%;
+}
+
+#home-grid {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 50px 600px 1fr;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #047638;  
+    padding-bottom: 100px;  
+}
+
+#me {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 400px;
+    height: 525px;
+    border-radius: 20%;
+    border-width: 4px;
+    border-color:#00c04d;
+    border-style: solid;
+}
+
+#home-intro {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#intro-heading {
+    color:#00ce53;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+#home-intro p {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#resume-content {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #047638;  
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.resume-entry {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 800px;
+}
+
+.resume-entry-title {
+    color: #00ce53;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+.resume-entry-text {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#python-list {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.resume-entry-img {
+    max-width: 300px; 
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#rafting-img {
+    transition: .5s;
+}
+
+#rafting-img:hover {
+    transform: scale(1.1);
+    opacity: .6;
+}
+
+#project-entries {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #047638;  
+    padding-bottom: 100px;
+    padding-left: 50px;
+    display: block;
+    
+}
+
+.project-entry {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 800px;
+    min-height: 400px;
+    border: solid 2px #047638;
+    border-radius: 1rem;
+    padding: 15px;
+}
+
+.project-title {
+    color: #00ce53;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.project-entry-content {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.project-entry-img {
+    max-width: 300px; 
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    transition: .5s;
+}
+
+.project-entry-img:hover {
+    transform: scale(1.1);
+    opacity: .6;
+    cursor: pointer;
+}
+
+#contact-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 650px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#contact-content-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #047638;  
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+#contact-page-greeting {
+    color: whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#client-info-form-title {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #00ce53;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+#form-container {
+    grid-column: 2/3;
+    grid-row: 3/11;
+}
+
+#contact-form {
+    border-radius: 10%;
+    border-width: 4px;
+    border-color:#00c04d;
+    border-style: solid;
+    height: 100%;
+}
+
+#contact_name_label {
+    color: #00c04d;
+    font-family:'Courier New', Courier, monospace
+}
+
+#contact_name {
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+#contact-icon {
+    max-width: 20px;
+}
+
+#company_name_label {
+    color: #00c04d;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#company_name {
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+#company-icon {
+    max-width: 20px;
+}
+
+#contact_phone_label {
+    color: #00c04d;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#contact_phone {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+#phone-icon {
+    max-width: 20px;
+}
+
+#contact_email_label {
+    color: #00c04d;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#contact_email {
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+#email-icon {
+    max-width: 20px;
+}
+
+#msg_label {
+    color: #00c04d;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#msg {
+    padding-bottom: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #047638;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #047638;
+    padding-top: 40px;
+    grid-column: 2/3;
+}
+
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content p {
+    font-size: 1em;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+
+.footer-content a {
+    font-size: 16pt;
+    color: #00ce53;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.footer-content a:hover {
+    background-color: #011b0c;
+    border-radius: 10%;
+}

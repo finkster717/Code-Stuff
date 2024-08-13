@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    place-content: center;
+}
+
+.main-navigation {
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+    border-top: solid slategray 1px;
+    border-bottom: solid slategray 1px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    /*If the card width should stretch, use this instead:    flex: 1 1 300px;*/
+    flex: 0 1 250px;
+    display: grid;
+    margin: 5px;
+    border: solid gray 1px;
+    border-radius: 10%;
+    background: lightgray;
+    height: 300px;
+    place-content: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    place-content: center;
+    margin: 25px;
+    border-top: solid slategray 1px;
+    padding: 5px;
+}
