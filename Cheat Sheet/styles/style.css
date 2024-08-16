@@ -1,0 +1,40 @@
+html {
+    background-color: rgba(185, 158, 179, 0.526);
+}
+
+body {
+    display: block; /* remember this is here as an experiment */
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin: 25px auto;
+    place-content: center;
+    font-size: 24pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+}
+
+nav {
+    display: flex;
+    margin: 10px auto;
+    padding-block: 5px;
+    place-content: center;
+    justify-content: space-evenly;
+    font-size: 18pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    background-color: maroon;
+    color: whitesmoke;
+}
+
+.nav-link {
+    padding-inline: 50px;
+    border-inline: 2px solid whitesmoke;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color: brown;
+}
