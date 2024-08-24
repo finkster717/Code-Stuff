@@ -167,6 +167,7 @@ nav a:hover {
     color: whitesmoke;
     font-family: "Courier New", Courier, monospace;
     align-content: center;
+    padding-bottom: 15px;
 }
 
 .project-entry-img {
