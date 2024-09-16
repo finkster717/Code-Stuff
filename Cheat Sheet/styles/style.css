@@ -26,6 +26,9 @@ nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     background-color: maroon;
+}
+
+nav a {
     color: whitesmoke;
 }
 
