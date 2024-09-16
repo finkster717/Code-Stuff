@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    display: block; /* remember this is here as an experiment */
     margin: 0 auto;
 }
 
@@ -14,6 +13,13 @@ header {
     font-size: 24pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: navy;
+}
+
+#home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
 }
 
 nav {
@@ -40,4 +46,22 @@ nav a {
 .nav-link:hover {
     cursor: pointer;
     background-color: brown;
+}
+
+main {
+    text-align: center;
+    margin-inline: 20%;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+
 }
