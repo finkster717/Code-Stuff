@@ -4,6 +4,22 @@ html {
 
 body {
     margin: 0 auto;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
 }
 
 header {
@@ -11,8 +27,12 @@ header {
     margin: 25px auto;
     place-content: center;
     font-size: 24pt;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Oswald", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
     word-spacing: 12;
+    letter-spacing: -1;
     color: navy;
 }
 
@@ -30,8 +50,10 @@ nav {
     place-content: center;
     justify-content: space-evenly;
     font-size: 18pt;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
+    font-family: "Oswald", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
     background-color: maroon;
 }
 
@@ -49,6 +71,13 @@ nav a {
     background-color: brown;
 }
 
+.code {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
 main {
     text-align: center;
     margin-inline: 20%;
@@ -64,7 +93,7 @@ section {
     border-radius: 10px;
 }
 
-/* HTML Elements Table (give this table an id later) */
+/* Start HTML Elements Table (give this table an id later) */
 
 table {
     margin: 0 auto;
@@ -81,6 +110,8 @@ table tr {
     border-bottom: 1px solid darkslategray;
     text-align: center;
 }
+
+/* End HTML Elements Table */
 
 footer {
     position: fixed;
