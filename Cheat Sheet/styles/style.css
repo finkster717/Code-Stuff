@@ -89,7 +89,8 @@ section {
     width: 800px;
     min-height: 50px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 20px;
+    padding-bottom: 40px;
     border: 1px slategray dotted;
     border-radius: 10px;
 }
@@ -149,8 +150,9 @@ table .description {
 /* End HTML Elements Table */
 
 footer {
-    position: fixed;
+    position: relative;
     display: flex;
+    margin-top: 50px;
     bottom: 0;
     left: 0;
     right: 0;
