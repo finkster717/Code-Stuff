@@ -97,18 +97,52 @@ section {
 
 table {
     margin: 0 auto;
-    width: 600px;
+    width: 700px;
     border-collapse: collapse;
     border: 2px solid darkslategray;
 }
 
+table tr:nth-child(even) {
+    background-color: rgba(255, 234, 234, 0.582);
+}
+  
+  table tr:nth-child(odd) {
+    background-color: rgba(252, 223, 227, 0.478);
+}
+
+table caption {
+    margin-bottom: 10px;
+    font-size: 24pt;
+    font-family: "Oswald", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    word-spacing: 12;
+    letter-spacing: -1;
+    color: navy;
+}
+
 table th {
     border-bottom: 2px solid darkslategray;
+    background-color: maroon;
+    color: whitesmoke;
+    font-family: "Oswald", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    height: 40px;
 }
 
 table tr {
     border-bottom: 1px solid darkslategray;
     text-align: center;
+    height: 30px;
+}
+
+table .description {
+    width: 320px;
+/*    border-left: 1px solid darkslategray;
+    border-right: 1px solid darkslategray;*/
 }
 
 /* End HTML Elements Table */
