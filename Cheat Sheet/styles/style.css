@@ -103,6 +103,8 @@ table {
     width: 700px;
     border-collapse: collapse;
     border: 2px solid darkslategray;
+    line-height: 1.2;
+    word-spacing: 1.1;
 }
 
 table tr:nth-child(even) {
@@ -139,13 +141,14 @@ table th {
 table tr {
     border-bottom: 1px solid darkslategray;
     text-align: center;
-    height: 30px;
+    min-height: 30px;
 }
 
 table .description {
     width: 320px;
-/*    border-left: 1px solid darkslategray;
-    border-right: 1px solid darkslategray;*/
+    padding-inline: 10px;
+    border-left: 1px dashed darkslategray;
+    border-right: 1px dashed darkslategray;
 }
 
 /* End HTML Elements Table */
