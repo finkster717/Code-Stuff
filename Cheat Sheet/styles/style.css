@@ -59,6 +59,7 @@ nav {
 
 nav a {
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -150,12 +151,8 @@ table .description {
 /* End HTML Elements Table */
 
 footer {
-    position: relative;
     display: flex;
     margin-top: 50px;
-    bottom: 0;
-    left: 0;
-    right: 0;
     height: 50px;
     justify-content: center;
     vertical-align: center;
