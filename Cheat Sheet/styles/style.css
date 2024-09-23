@@ -85,6 +85,29 @@ main {
     margin-top: 50px;
 }
 
+#todo-container {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    border: 1px slategray dotted;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+#todo-list {
+    text-align: left;
+}
+
+#todo-list li {
+    transition: .5s;
+}
+
+#todo-list li:hover {
+    scale: 1.1;
+}
+
 section {
     display: block;
     width: 800px;
@@ -154,10 +177,26 @@ table .description {
 /* End HTML Elements Table */
 
 footer {
-    display: flex;
     margin-top: 50px;
-    height: 50px;
-    justify-content: center;
-    vertical-align: center;
+    min-height: 50px;
+    vertical-align: middle;
     align-content: center;
+    background-color: navy;
+    color: whitesmoke;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
 }
