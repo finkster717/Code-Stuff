@@ -23,8 +23,52 @@
     </nav>
 
     <main>
-        <section>
-            section placeholder text
+        <section id="selectors">
+            <table>
+                <caption>CSS Selectors</caption>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">div, h1, p, header, etc.</td>
+                        <td class="description">Any HTML element can be used as a CSS Selector, but whatever properties get used will be applied to any matching element regardless of ID or class. This is a very non-specific way to select part of a web page.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">.</td>
+                        <td class="description">The "." denotes a defined class within an HTML doc, to use this selector simply use the "." followed by whatever the name of the class is you are trying to select. This will apply the styling within to all html elements with the specified class. This is a level of specificity above using HTML elements as CSS selectors.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">#</td>
+                        <td class="description">The "#" denotes a defined ID within an HTML doc, to use this selector simply use the "#" followed by whatever the name of the ID is you are trying to select. This will only apply the styling within to the one HTML element with this ID. An element's ID should be unique and used only when selecting an element who's styling will not need to be repeated. This is the most specific way to select an element from an HTML doc.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="properties">
+            <table>
+                <caption>CSS Properties</caption>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">margin</td>
+                        <td class="description">The space between an element and the elements around it.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">border</td>
+                        <td class="description">An outline or border surrounding an element.</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 

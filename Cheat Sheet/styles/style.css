@@ -101,25 +101,20 @@ main {
 }
 
 #todo-list li {
-    transition: .5s;
-}
-
-#todo-list li:hover {
-    scale: 1.1;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
 }
 
 section {
     display: block;
     width: 800px;
     min-height: 50px;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 20px;
     padding-bottom: 40px;
     border: 1px slategray dotted;
     border-radius: 10px;
 }
-
-/* Start HTML Elements Table (give this table an id later) */
 
 table {
     margin: 0 auto;
@@ -134,7 +129,7 @@ table tr:nth-child(even) {
     background-color: rgba(255, 234, 234, 0.582);
 }
   
-  table tr:nth-child(odd) {
+table tr:nth-child(odd) {
     background-color: rgba(252, 223, 227, 0.478);
 }
 
@@ -167,14 +162,15 @@ table tr {
     min-height: 30px;
 }
 
+table td {
+    padding: 15px;
+}
+
 table .description {
     width: 320px;
-    padding-inline: 10px;
     border-left: 1px dashed darkslategray;
     border-right: 1px dashed darkslategray;
 }
-
-/* End HTML Elements Table */
 
 footer {
     margin-top: 50px;
