@@ -85,6 +85,19 @@ main {
     margin-top: 50px;
 }
 
+h1 {
+    margin-bottom: 10px;
+    font-size: 20pt;
+    font-family: "Oswald", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    word-spacing: 12;
+    letter-spacing: -1;
+    color: navy;
+}
+
+
 #todo-container {
     display: block;
     width: 800px;
