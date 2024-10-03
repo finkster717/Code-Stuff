@@ -60,11 +60,11 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="code">margin</td>
+                        <td class="code">margin:</td>
                         <td class="description">The space between an element and the elements around it.</td>
                     </tr>
                     <tr>
-                        <td class="code">border</td>
+                        <td class="code">border:</td>
                         <td class="description">An outline or border surrounding an element.</td>
                     </tr>
                 </tbody>
@@ -83,18 +83,92 @@
                 <tbody>
                     <tr>
                         <td class="code">flex</td>
-                        <td class="description">asdfasdfasdfasdfasdfasdfasdfasdf</td>
+                        <td class="description">Changes an element to a block-level container with flex items inside of it. May also be used to define <span class="code">flex-grow</span>, <span class="code">flex-shrink</span>, and <span class="code">flex-basis</span> all in one declaration.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">inline-flex</td>
+                        <td class="description">Allows multiple flex containers to appear inline with each other.</td>
                     </tr>
                     <tr>
                         <td class="code">block</td>
-                        <td class="description">;lkj;lkj;lkj;klj;lkj;lkj</td>
+                        <td class="description">Defines an element as block-level, meaning it will occupy the full width available in its container. This is the default property for <span class="code">&lt;div&gt;</span>, <span class="code">&lt;p&gt;</span>, and <span class="code">&lt;h1&gt; - &lt;h6&gt;</span>. Items displayed in this way will stack vertically on the page.</td>
                     </tr>
+                    <tr>
+                        <td class="code">inline</td>
+                        <td class="description">Displays an element as an inline element.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">inline-block</td>
+                        <td class="description">Displays an element as an inline-level block container.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">grid</td>
+                        <td class="description">Displays an element as a grid container.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">none</td>
+                        <td class="description">Removes the element from the document flow.</td>
+                    </tr>            
                 </tbody>
             </table>
         </section>
 
         <section id="flexbox">
-            <h1>Flexbox</h1>
+            <table>
+                <caption>Flexbox</caption>
+                <thead>
+                    <th>CSS Property</th>
+                    <th>Description</th>
+                    <th>Attribute Examples</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">justify-content</td>
+                        <td class="description">Used to space items along the main axis.</td>
+                        <td class="code">flex-start, center, space-between</td>
+                    </tr>
+                    <tr>
+                        <td class="code">align-items</td>
+                        <td class="description">Used to space items along the cross axis.</td>
+                        <td class="code">stretch, flex-start, baseline</td>
+                    </tr>
+                    <tr>
+                        <td class="code">flex-grow</td>
+                        <td class="description">Used to specify how much space (and in what proportions) flex items absorb along the main axis.</td>
+                        <td class="code">0, 1, 2</td>
+                    </tr>
+                    <tr>
+                        <td class="code">flex-shrink</td>
+                        <td class="description">Used to specify how much flex items shrink and in what proportions along the main axis.</td>
+                        <td class="code">0, 1, 2</td>
+                    </tr>
+                    <tr>
+                        <td class="code">flex-basis</td>
+                        <td class="description">Used to specify the initial size of an element styled with <span class="code">flex-grow</span> and/or <span class="code">flex-shrink.</span></td>
+                        <td class="code">auto, 100px, 50%</td>
+                    </tr>
+                    <tr>
+                        <td class="code">flex-wrap</td>
+                        <td class="description">Specifies that elements should shift along the cross axis if the flex container is not large enough.</td>
+                        <td class="code">nowrap, wrap, wrap-reverse</td>
+                    </tr>
+                    <tr>
+                        <td class="code">align-content</td>
+                        <td class="description">Aligns flex lines within the flex container.</td>
+                        <td class="code">flex-start, space-around, stretch</td>
+                    </tr>
+                    <tr>
+                        <td class="code">flex-direction</td>
+                        <td class="description">Defines the direction of the flex items in the flex container.</td>
+                        <td class="code">row, column, row-reverse</td>
+                    </tr>
+                    <tr>
+                        <td class="code">flex-flow</td>
+                        <td class="description">Specifies <span class="code">flex-wrap</span> and <span class="code">flex-direction</span> in the same declaration.</td>
+                        <td class="code">row nowrap, column wrap</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
     </main>
