@@ -1,5 +1,6 @@
 html {
     background-color: rgba(185, 158, 179, 0.526);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +21,18 @@ body {
       "YTFI" 738,
       "YTLC" 514,
       "YTUC" 712;
+}
+
+.inline-link:active {
+    color: blue;
+}
+
+.inline-link:hover {
+    color: blue;
+}
+
+.inline-link:visited {
+    color: blue;
 }
 
 header {
@@ -183,6 +196,20 @@ table .description {
     width: 320px;
     border-left: 1px dashed darkslategray;
     border-right: 1px dashed darkslategray;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+#scroll-to-top a:active {
+    color: navy;
+}
+
+#scroll-to-top a:visited {
+    color: blue;
 }
 
 footer {
