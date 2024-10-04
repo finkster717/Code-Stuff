@@ -200,7 +200,7 @@ table .description {
 
 #scroll-to-top {
     position: fixed;
-    bottom: 80px;
+    bottom: 100px;
     right: 20px;
 }
 
@@ -212,9 +212,16 @@ table .description {
     color: blue;
 }
 
+#scroll-to-top-target {
+    position: absolute;
+    top: 0px;
+}
+
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 50px;
-    min-height: 50px;
+    min-height: 100px;
     vertical-align: middle;
     align-content: center;
     background-color: navy;
@@ -235,4 +242,20 @@ footer {
       "YTFI" 738,
       "YTLC" 514,
       "YTUC" 712;
+}
+
+#footer-content {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#daily-scripture {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 50px;
+    line-height: 1.5;
 }
