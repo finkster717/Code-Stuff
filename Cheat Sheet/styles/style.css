@@ -3,6 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
+*:visited {
+    color: navy;
+}
+
 body {
     margin: 0 auto;
     font-family: "Roboto Flex", sans-serif;
@@ -24,15 +28,15 @@ body {
 }
 
 .inline-link:active {
-    color: blue;
+    color: navy;
 }
 
 .inline-link:hover {
-    color: blue;
+    color: navy;
 }
 
 .inline-link:visited {
-    color: blue;
+    color: navy;
 }
 
 header {
@@ -83,6 +87,10 @@ nav a {
 .nav-link:hover {
     cursor: pointer;
     background-color: brown;
+}
+
+.nav-link:visited {
+    color: whitesmoke;
 }
 
 .code {
@@ -209,7 +217,7 @@ table .description {
 }
 
 #scroll-to-top a:visited {
-    color: blue;
+    color: navy;
 }
 
 #scroll-to-top-target {
