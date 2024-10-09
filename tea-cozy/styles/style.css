@@ -1,0 +1,22 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header *{
+    opacity: 0.9;
+}
+
+body *{
+    opacity: 0.9;
+}
+
+footer *{
+    opacity: 0.9;
+}
+
+img {
+    max-width: 1200px;
+}
