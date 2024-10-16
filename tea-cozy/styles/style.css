@@ -71,3 +71,45 @@ nav a {
     height: 200px;
     margin: 10px;
 }
+
+#locations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    z-index: 0;
+}
+
+#locations img {
+    height: 650px;
+    width: 1200px;
+}
+
+#locations-header {
+    font-size: 22pt;
+    z-index: 1;
+    background: none;
+}
+
+#location-card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+    opacity: 1;
+}
+
+.location-card {
+    width: 300px;
+    line-height: 200%;
+    opacity: 1;
+    margin-inline: 40px;
+}
+
+#absolutely-positioned-container {
+    position: absolute;
+    background: none;
+    opacity: 1;
+}
+
