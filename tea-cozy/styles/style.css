@@ -113,3 +113,14 @@ nav a {
     opacity: 1;
 }
 
+#contact {
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: left;
+    align-items: center;
+}
