@@ -98,7 +98,7 @@
                         <td class="description">Defines the ability for a flex item to grow or shrink.</td>
                     </tr>
                     <tr>
-                        <td class="code">grid</td>
+                        <td class="code"><a class="inline-link" href="#grid">grid</a></td>
                         <td class="description">Defines a grid layout for an element.</td>
                     </tr>
                     <tr>
@@ -160,7 +160,7 @@
                         <td class="description">Displays an element as an inline-level block container.</td>
                     </tr>
                     <tr>
-                        <td class="code">grid</td>
+                        <td class="code"><a class="inline-link" href="#grid">grid</a></td>
                         <td class="description">Displays an element as a grid container.</td>
                     </tr>
                     <tr>
@@ -235,20 +235,61 @@
 
         <section id="grid">
             <h1>CSS Grid</h1>
-            <p>CSS Grid is a great way to position a large number of differently sized and styled objects within a container. Each CSS Grid is made up of a parent container and child elements. These child elements can be styled independently of the grid container, and will stay in their specified location on the grid. The table below shows how to access and use CSS Grid.</p>
+            <p class="section-description">Each CSS Grid is made up of a parent container and child elements. These child elements can be styled independently of the grid container, and will stay in their specified location on the grid. The table below shows how to access and use CSS Grid containers.</p>
 
             <table>
-                <caption>CSS Grid Properties & Attributes</caption>
+                <caption>Properties & Attributes</caption>
                 <thead>
                     <th>Property</th>
                     <th>Description</th>
                     <th>Attribute Example</th>
                 </thead>
                 <tr>
-                    <td class="code"></td>
-                    <td class="description"></td>
-                    <td class="code"></td>
+                    <td class="code">display</td>
+                    <td class="description">To access CSS Grid, all grid items must be contained within a parent element with a display property of grid.</td>
+                    <td class="code">grid</td>
                 </tr>
+                <tr>
+                    <td class="code">grid-template-columns</td>
+                    <td class="description">This sets the column widths of a grid. No commas, don't forget to specify data-type, each specified value will determine the width of each column, going from left to right on the grid.</td>
+                    <td class="code"><span class="tooltip">repeat<span class="tooltiptext">The repeat function will duplicate the specifications for rows or columns a given number of times. First value is the amount of rows or columns, second value is height or width respectively.</span></span>(5, 1<span class="tooltip">fr<span class="tooltiptext">By using the fr unit, we can define the size of columns and rows as a fraction of the grid’s length and width. This unit was specifically created for use in CSS Grid.</span></span>)</td>
+                </tr>
+                <tr>
+                    <td class="code">grid-template-rows</td>
+                    <td class="description">This sets the row heights of a grid. No commas, don't forget to specify data-type, each specified value will determine the height of each row, going from top to bottom on the grid.</td>
+                    <td class="code">100px <span class="tooltip">minmax<span class="tooltiptext">In this example, the middle column will vary in size as the overall grid resizes. This column will always be between 100 and 500 pixels wide.</span></span>(100px, 500px) 100px</td>
+                </tr>
+                <tr>
+                    <td class="code">grid-template</td>
+                    <td class="description">This is used as shorthand to determine both columns and rows on in the same line. Syntax is: rows / columns</td>
+                    <td class="code"><span class="tooltip">repeat<span class="tooltiptext">The repeat function will duplicate the specifications for rows or columns a given number of times. First value is the amount of rows or columns, second value is height or width respectively.</span></span>(3, 1<span class="tooltip">fr<span class="tooltiptext">By using the fr unit, we can define the size of columns and rows as a fraction of the grid’s length and width. This unit was specifically created for use in CSS Grid.</span></span>) / 100%</span></td>
+                </tr>
+                <tr>
+                    <td class="code">row-gap</td>
+                    <td class="description">This property puts blank space between every row in the grid.</td>
+                    <td class="code">8px</td>
+                </tr>
+                <tr>
+                    <td class="code">column-gap</td>
+                    <td class="description">This property puts blank space between every column in the grid.</td>
+                    <td class="code">10px</td>
+                </tr>
+                <tr>
+                    <td class="code">gap</td>
+                    <td class="description">A shorthand CSS property that can set the row and column gap at the same time.</td>
+                    <td class="code"><span class="tooltip">10px 20px<span class="tooltiptext">Unlike other CSS grid properties, this shorthand does not take a / between values! If only one value is given, it will set the column gap and the row gap to that value.</span></span></td>
+                </tr>
+            </table>
+
+            <p class="section-description">This next table shows CSS properties that will affect the size of the grid items and where they are displayed on the page. Targeting the child element within a grid container unlocks the following features.</p>
+
+            <table>
+                <caption>Properties & Attributes</caption>
+                <thead>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Attribute Example</th>
+                </thead>
             </table>
         </section>
 
