@@ -199,7 +199,8 @@ section {
   }
 
 table {
-    margin: 50px auto;
+    margin-block-end: 50px;
+    margin-inline: auto;
     width: 700px;
     border-collapse: collapse;
     border: 2px solid darkslategray;
